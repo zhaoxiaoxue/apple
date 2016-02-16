@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/less.css">
+    <link rel="stylesheet" href="css/apple.css">
+    <script src="js/jQuery.js"></script>
+    <script src="js/apple.js"></script>
+    <script src="js/touch.js"></script>
+    <style>
+        @media screen and (max-width:600px){
+            body{
+                background-size: 600px;
+            }
+        }
+        @media screen and (min-width:600px){
+            body{
+                background-size: 1200px;
+            }
+        }
+        .background{
+            width:100%;
+            height:300px;
+            padding:30px;
+            border:20px solid red;
+            background:url(images/dahui.jpg) no-repeat;
+            backgroung-position:center;
+            background-size: 100%;
+            /*background-origin: content-box  ;*/
+            /*background-origin: padding-box  ;*/
+            /*background-origin: border-box   ;*/
+            /*background-clip:content-box;*/
+            /*background-clip:padding-box;*/
+            background-clip:border-box;
+        }
+        .drag,.rotate{
+            width:200px;
+            height:200px;
+            background:red;
+        }
+    </style>
+</head>
+<body>
+<!--<div class="background"></div>-->
+
+<!--<div class="rotate"></div>-->
+<!--<div class="drag"></div>-->
+    <header>
+        <div class="header container-fluid header1">
+            <div class="header-con">
+                <div class="container-fluid">
+                    <div class="row">
+                        <a class="col-s-2">LOGO</a>
+                        <a class="col-s-1">Mac</a>
+                        <a class="col-s-1">iPad</a>
+                        <a class="col-s-1">iPhone</a>
+                        <a class="col-s-1">Watch</a>
+                        <a class="col-s-1">Music</a>
+                        <a class="col-s-1">技术支持</a>
+                        <a class="col-s-2">search</a>
+                        <a class="col-s-2">关于</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="header container-fluid header2">
+            <div class="row">
+                <div class="col-s-4 munebtn" text-l>三
+                    <div class="son">
+                        <a href="" >Mac</a>
+                        <a href="" >iPad</a>
+                        <a href="" >iPhone</a>
+                        <a href="" >Watch</a>
+                        <a href="" >技术支持</a>
+                        <a href="" >search</a>
+                    </div>
+
+                </div>
+                <a class="col-s-4" text-c>LOGO</a>
+                <a class="col-s-4" text-r>关于</a>
+
+            </div>
+
+        </div>
+    </header>
+    <div class="banner container-fluid">
+        <div class="nav">
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <div class="box">
+            <a class="list list1">
+                <div class="text">
+                    <h1>新意从这里开始</h1>
+                    <h2>看看艺术家们用Apple产品，创作的精彩之作</h2>
+                    <span>浏览作品廊</span>
+                </div>
+            </a>
+            <a class="list list1">
+                <div class="text">
+                    <h1>WATCH</h1>
+                    <h2>新年快乐</h2>
+                    <span>立即选购</span>
+                </div>
+            </a>
+            <a class="list list1">
+                <div class="text">
+                    <h1>全新Apple Music、iBooks</h1>
+                    <!--<h2>1111</h2>-->
+                    <span>进一步了解</span>
+                </div>
+            </a>
+            <a class="list list1">
+                <div class="text">
+                    <h1>喜从天降</h1>
+                    <!--<h2>1111</h2>-->
+                    <span>进一步了解</span>
+                </div>
+            </a>
+            <a class="list list1">
+                <div class="text">
+                    <h1>新意从这里开始</h1>
+                    <h2>看看艺术家们用Apple产品，创作的精彩之作</h2>
+                    <span>浏览作品廊</span>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="container-fluid out">
+        <div class="row">
+            <div class="col-s-12 col-m-6 col-l-3"></div>
+            <div class="col-s-12 col-m-6 col-l-3"></div>
+            <div class="col-s-12 col-m-6 col-l-3"></div>
+            <div class="col-s-12 col-m-6 col-l-3"></div>
+        </div>
+    </div>
+<div class="container-fluid next next1">
+    <div class="row">
+        <div class="col-m-3 col-l-3 ">
+            <div class="son">
+                <a href="" >选购及了解</a>
+                <a href="" >Mac</a>
+                <a href="" >iPad</a>
+                <a href="" >iPhone</a>
+                <a href="" >Watch</a>
+                <a href="" >Music</a>
+                <a href="" >iTunes</a>
+            </div>
+        </div>
+        <div class="col-m-2 col-l-2 ">
+            <div class="son">
+                <a href="" >Apple Store商店</a>
+                <a href="" >查找零售店</a>
+                <a href="" >讲座与学习</a>
+                <a href="" >青少年活动</a>
+                <a href="" >翻新产品</a>
+                <a href="" >分期付款</a>
+                <a href="" >订单状态</a>
+            </div>
+        </div>
+        <div class="col-m-4 col-l-4 ">
+            <div class="container-fluid nextin">
+                <div class="row">
+                    <div class="col-m-6 col-l-6">
+                        <div class="son">
+                            <a href="" >教育应用</a>
+                            <a href="" >Apple与教育</a>
+                            <a href="" >高校师生选购</a>
+                        </div>
+                    </div>
+                    <div class="col-m-6 col-l-6">
+                        <div class="son">
+                            <a href="" >账户</a>
+                            <a href="" >iPad商务应用</a>
+                            <a href="" >Mac商务应用</a>
+                        </div>
+                    </div>
+                    <div class="col-m-6 col-l-6">
+                        <div class="son">
+                            <a href="" >商务应用</a>
+                            <a href="" >iPone商务应用</a>
+                            <a href="" >商务选购</a>
+                        </div>
+                    </div>
+                    <div class="col-m-6 col-l-6">
+                        <div class="son">
+                            <a href="" >Apple价值观</a>
+                            <a href="" >环境责任</a>
+                            <a href="" >隐私</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-l-3 col-m-3">
+            <div class="son">
+                <a href="" >关于Apple</a>
+                <a href="" >工作机会</a>
+                <a href="" >活动</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid next next2">
+    <div class="row">
+        <div class="col-s-12">选购及应用
+            <div class="son">
+                <a href="" >Mac</a>
+                <a href="" >iPad</a>
+                <a href="" >iPhone</a>
+                <a href="" >Watch</a>
+                <a href="" >Music</a>
+                <a href="" >iTunes</a>
+            </div>
+        </div>
+        <div class="col-s-12">Apple Store商店
+            <div class="son">
+                <a href="" >查找零售店</a>
+                <a href="" >讲座与学习</a>
+                <a href="" >青少年活动</a>
+                <a href="" >翻新产品</a>
+                <a href="" >分期付款</a>
+                <a href="" >订单状态</a>
+            </div>
+        </div>
+        <div class="col-s-12">教育应用
+            <div class="son">
+                <a href="" >Apple与教育</a>
+                <a href="" >高校师生选购</a>
+            </div>
+        </div>
+        <div class="col-s-12">账户
+            <div class="son">
+                <a href="" >iPad商务应用</a>
+                <a href="" >Mac商务应用</a>
+            </div>
+        </div>
+        <div class="col-s-12">商务应用
+            <div class="son">
+                <a href="" >iPone商务应用</a>
+                <a href="" >商务选购</a>
+            </div>
+        </div>
+        <div class="col-s-12">Apple价值观
+            <div class="son">
+                <a href="" >环境责任</a>
+                <a href="" >隐私</a>
+            </div>
+        </div>
+        <div class="col-s-12">关于Apple
+            <div class="son">
+                <a href="" >工作机会</a>
+                <a href="" >活动</a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
